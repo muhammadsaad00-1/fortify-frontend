@@ -1,8 +1,8 @@
 import { ApiError } from '@/types/api';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const API_BASE_URL = 'https://fortifyfitness-production.up.railway.app';
 const API_TIMEOUT = Number(import.meta.env.VITE_API_TIMEOUT) || 30000;
-
+//const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
 // Token management
 const TOKEN_KEY = 'access_token';
 const REFRESH_TOKEN_KEY = 'refresh_token';
