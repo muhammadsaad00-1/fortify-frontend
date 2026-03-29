@@ -26,3 +26,7 @@ dist-ssr
 *.sh
 
 *.mp4
+
+.env
+*.env
+.env.*
